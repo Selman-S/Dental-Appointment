@@ -1,13 +1,16 @@
+import './App.css'
+import AppRouter from './router/AppRouter'
 
-import './App.css';
-
+import AppContextProvider from './context/AppContext'
 
 function App() {
   return (
-    <div >
-
+    <div style={{ width: '98%', height: '95vh' }}>
+      <AppContextProvider>
+        <AppRouter />
+      </AppContextProvider>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

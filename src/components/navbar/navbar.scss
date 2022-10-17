@@ -1,0 +1,51 @@
+.navbar {
+  height: 80px;
+  border-bottom: 0.5px solid #000;
+  display: flex;
+  align-items: center;
+  font-style: 14px;
+  color: #555;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    .logo {
+   
+      width: 50px;
+      height: 50px;
+      background: #5616f5 url('https://w7.pngwing.com/pngs/443/473/png-transparent-white-teeth-oral-hygiene-tooth-jaw-angle-teeth-white-people-hygiene-thumbnail.png');
+}
+    .search {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid lightgrey;
+      padding: 3px;
+
+
+      input {
+        outline: none;
+        border:none;
+        background-color: transparent;
+
+        &::placeholder {
+          font-style: 12px;
+        }
+
+      }
+
+    }
+    .items{
+      display: flex; 
+      align-items: center;
+      margin-right: 20px;
+
+      .icon {
+        font-size: 20px;
+      }
+    }
+
+  }
+}
