@@ -6,7 +6,7 @@ import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined'
 import FullscreenExitOutlinedIcon from '@mui/icons-material/FullscreenExitOutlined'
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined'
 import ListOutlinedIcon from '@mui/icons-material/ListOutlined'
-import tooth from '../../assets/logotooth.png'
+import tooth from '../../assets/sd.png'
 
 
 
@@ -15,7 +15,7 @@ const NavBar = () => {
     <div className="navbar">
       <div className="wrapper">
         <Box sx={{display:'flex',alignItems:'center',justifyContent: 'center'}}>
-        <div className="logo" style={{marginLeft:'20px',cursor:'pointer'}}  ><img src={tooth} alt="logo" style={{width:'30px',height:'45px'}} /></div>
+        <div className="logo" style={{marginLeft:'20px',cursor:'pointer'}}  ><img src={tooth} alt="logo" style={{width:'60px',height:'65px'}} /></div>
         
         <Grid item xs={12} md={4}>
           <List  sx={{ cursor:'pointer' }}>

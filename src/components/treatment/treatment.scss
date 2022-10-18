@@ -1,7 +1,7 @@
 .treatment {
   width: 350px;
   height: 100vh;
-  background-color: rgba(237,118,7,.2);
+  background-color: #ddd;
   padding: 2rem 1rem;
 
   .header {
@@ -27,5 +27,8 @@
   }
   .selct-treat {
     margin-top: 10px;
+  }
+  .textarea {
+    margin: 20px;
   }
 }
