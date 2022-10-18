@@ -1,5 +1,7 @@
 import NavBar from '../../components/navbar/NavBar'
+import Profile from '../../components/profile/Profile'
 import SideBar from '../../components/sidebar/SideBar'
+import Treatment from '../../components/treatment/Treatment'
 import './home.scss'
 
 const Home = () => {
@@ -8,8 +10,13 @@ const Home = () => {
       <SideBar />
       <div className="homeContainer">
         <NavBar />
-        home container
+        <div className="mainContainer">
+
+        <Profile />
+
+        </div>
       </div>
+        <Treatment/>
     </div>
   )
 }

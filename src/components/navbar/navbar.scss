@@ -1,10 +1,11 @@
 .navbar {
-  height: 80px;
-  border-bottom: 0.5px solid #000;
+  height: 100px;
+
   display: flex;
   align-items: center;
   font-style: 14px;
   color: #555;
+
 
   .wrapper {
     display: flex;
@@ -14,24 +15,32 @@
     justify-content: space-between;
     .logo {
    
-      width: 50px;
-      height: 50px;
-      background: #5616f5 url('https://w7.pngwing.com/pngs/443/473/png-transparent-white-teeth-oral-hygiene-tooth-jaw-angle-teeth-white-people-hygiene-thumbnail.png');
+      width: 60px;
+      height: 60px;
+      background-color: #5616f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
 }
     .search {
       display: flex;
       align-items: center;
-      border: 0.5px solid lightgrey;
-      padding: 3px;
+      border: 1.5px solid #5616f5;
+      padding: 5px;
+      border-radius: 12px;
+   
+      width: 250px;
 
 
       input {
         outline: none;
         border:none;
         background-color: transparent;
+        width:100%;
 
         &::placeholder {
-          font-style: 12px;
+          font-size: 14px;
         }
 
       }
@@ -40,10 +49,34 @@
     .items{
       display: flex; 
       align-items: center;
-      margin-right: 20px;
+      margin-right: 0px;
 
+      .item {
+        margin-left:8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
       .icon {
-        font-size: 20px;
+
+        font-size: 28px;
+      }
+      .counter {
+        width: 15px;height: 15px;
+        background-color: red;
+        border-radius: 50%;
+        color: #fff;
+        display: flex;justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: bold;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+
+
+
       }
     }
 
