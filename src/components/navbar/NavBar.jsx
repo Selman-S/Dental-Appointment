@@ -23,7 +23,7 @@ const NavBar = () => {
               <Typography
                 variant="h6"
                 gutterBottom
-                sx={{ fontWeight: 'bold', color: 'orange', fontSize: '28px' }}
+                sx={{ fontWeight: 'bold', color: '#ed7607', fontSize: '28px' }}
                 >
                 D
               </Typography>

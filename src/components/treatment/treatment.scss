@@ -1,6 +1,31 @@
 .treatment {
   width: 350px;
   height: 100vh;
-  background-color: #ddd;
+  background-color: rgba(237,118,7,.2);
   padding: 2rem 1rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    .icons {
+      display: flex;
+      gap:20px;
+      .icon {
+        width: 35px;
+        height: 35px;
+        background-color: #fff;
+        border: .5px solid #ccc;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+      }
+    }
+  }
+  .selct-treat {
+    margin-top: 10px;
+  }
 }

@@ -52,7 +52,7 @@ const SideBar = () => {
           ></BiPlusMedical>
           m
           <span style={{ display: isOpen ? 'inline' : 'none' }}>
-            edi<strong style={{ color: '#3beaf5' }}>kit</strong>
+            edi<strong style={{ color: '#07c3f7' }}>kit</strong>
           </span>
         </h1>
       </div>
