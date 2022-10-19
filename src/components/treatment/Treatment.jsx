@@ -178,7 +178,7 @@ const Treatment = () => {
  
   style={{ width: '100%',fontSize:'1rem' }}
 />
-<ColorButton  variant="contained" type="submit"  >Kaydet</ColorButton>
+<Button  variant="contained" type="submit"  >Kaydet</Button>
       </form>
     </div>
   )

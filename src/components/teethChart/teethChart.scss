@@ -1,0 +1,189 @@
+.teeth-chart {
+  margin:20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1rem;
+
+  
+  .teeth-chart-top {
+    width: 250px;
+    height:160px;
+    background-color: #5616f5;
+    border-radius: 1.5rem;
+    position: relative;
+    padding:2rem;
+    z-index: 1;
+    
+    .tooth{
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      background-color: white;
+      position: absolute;
+    }
+    
+    .toptooth-1{
+      z-index: 2;
+      left: 78px;
+      top: 164px;
+      width: 18px;
+      height: 18px;
+      transform: rotate(10deg);
+      
+
+    }
+
+    .toptooth-2{
+      z-index: 2;
+     left: 82px;
+     top: 145px;
+     width: 18px;
+     height: 18px;
+     transform: rotate(13deg);}
+    
+     .toptooth-3{ 
+       z-index: 2;
+       left: 86px;
+       top: 124px;
+       width: 20px;
+       height: 20px;
+       transform: rotate(15deg); 
+      }
+    .toptooth-4{
+      z-index: 2;
+      left: 92px;
+      top: 109px;
+      width: 19px;
+      height: 14px;
+      transform: rotate(22deg);
+    }
+    .toptooth-5{
+      z-index: 2;
+      left: 99px;
+      top: 96px;
+      width: 19px;
+      height: 13px;
+      transform: rotate(30deg);
+    }
+    .toptooth-6{
+      z-index: 2;
+      left: 108px;
+      top: 82px;
+      width: 18px;
+      height: 14px;
+      transform: rotate(49deg);
+    }
+    .toptooth-7{
+      z-index: 2;
+      left: 121px;
+      top: 75px;
+      width: 17px;
+      height: 12px;
+      transform: rotate(64deg);
+    }
+    .toptooth-8{
+      z-index: 2;
+      left: 135px;
+      top: 69px;
+      width: 19px;
+      height: 16px;
+      transform: rotate(80deg);
+    }
+    .toptooth-9{
+      z-index: 2;
+      left: 152px;
+      top: 69px;
+      width: 19px;
+      height: 16px;
+      transform: rotate(99deg);
+    }
+    .toptooth-10{
+      z-index: 2;
+      left: 168px;
+      top: 76px;
+      width: 17px;
+      height: 12px;
+      transform: rotate(115deg);
+    }
+    .toptooth-11{
+      z-index: 2;
+      left: 181px;
+      top: 83px;
+      width: 18px;
+      height: 13px;
+      transform: rotate(133deg);
+    }
+    .toptooth-12{
+      z-index: 2;
+      left: 189px;
+      top: 96px;
+      width: 19px;
+      height: 13px;
+      transform: rotate(143deg);
+    }
+    .toptooth-13{
+      z-index: 2;
+      left: 196px;
+      top: 109px;
+      width: 19px;
+      height: 13px;
+      transform: rotate(153deg);
+    }
+    .toptooth-14{
+      z-index: 2;
+      left: 200px;
+      top: 123px;
+      width: 22px;
+      height: 21px;
+      transform: rotate(163deg);
+    }
+    .toptooth-15{
+      z-index: 2;
+      left: 206px;
+      top: 145px;
+      width: 19px;
+      height: 18px;
+      transform: rotate(166deg);
+    }
+    .toptooth-16{
+      z-index: 2;
+      left: 210px;
+      top: 164px;
+      width: 19px;
+      height: 18px;
+      transform: rotate(170deg);
+    }
+  }
+  .teeth-chart-bottom {
+    width: 250px;
+    background-color: #5616f5;
+    border-radius: 1.5rem;
+    position: relative;
+    padding:2rem;
+    z-index: 1;
+
+    .bottomtooth-1{}
+    .bottomtooth-2{}
+    .bottomtooth-3{}
+    .bottomtooth-4{}
+    .bottomtooth-5{}
+    .bottomtooth-6{}
+    .bottomtooth-7{}
+    .bottomtooth-8{}
+    .bottomtooth-9{}
+    .bottomtooth-10{}
+    .bottomtooth-11{}
+    .bottomtooth-12{}
+    .bottomtooth-13{}
+    .bottomtooth-14{}
+    .bottomtooth-15{}
+    .bottomtooth-16{}  
+  }
+  
+  img {
+   
+    width: 250px;
+    position: absolute;
+    z-index: 3;
+  }
+}

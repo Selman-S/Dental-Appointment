@@ -1,6 +1,7 @@
 import NavBar from '../../components/navbar/NavBar'
 import Profile from '../../components/profile/Profile'
 import SideBar from '../../components/sidebar/SideBar'
+import TeethChart from '../../components/teethChart/TeethChart'
 import Treatment from '../../components/treatment/Treatment'
 import './home.scss'
 
@@ -15,6 +16,7 @@ const Home = () => {
         <Profile />
 
         </div>
+        <TeethChart />
       </div>
         <Treatment/>
     </div>
