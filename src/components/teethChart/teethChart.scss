@@ -175,6 +175,18 @@
     padding:2rem;
     z-index: 1;
 
+
+    .tooth{
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      background-color: white;
+      position: absolute;
+      font-size: 9px;
+      text-align: center;
+      color:rgb(61, 61, 61);
+    }
+
     .head {
       position: absolute;
       color: #fff;
@@ -184,22 +196,136 @@
       
     }
 
-    .bottomtooth-1{}
-    .bottomtooth-2{}
-    .bottomtooth-3{}
-    .bottomtooth-4{}
-    .bottomtooth-5{}
-    .bottomtooth-6{}
-    .bottomtooth-7{}
-    .bottomtooth-8{}
-    .bottomtooth-9{}
-    .bottomtooth-10{}
-    .bottomtooth-11{}
-    .bottomtooth-12{}
-    .bottomtooth-13{}
-    .bottomtooth-14{}
-    .bottomtooth-15{}
-    .bottomtooth-16{}  
+    .bottomtooth-1{
+      z-index:2;
+      left: 79px;
+      top: 76px;
+      width: 19px;
+      height: 19px;
+      transform: rotate(-15deg);
+   
+
+    }
+    .bottomtooth-2{
+      z-index:2;
+      left: 84px;
+      top: 96px;
+      width: 20px;
+      height: 20px;
+      transform: rotate(-18deg);
+    }
+    .bottomtooth-3{
+      z-index:2;
+      left: 90px;
+      top: 116px;
+      width: 21px;
+      height: 22px;
+      transform: rotate(-22deg);
+    }
+    .bottomtooth-4{
+      z-index:2;
+      left: 99px;
+      top: 139px;
+      width: 17px;
+      height: 13px;
+      transform: rotate(-33deg);
+    }
+    .bottomtooth-5{
+      z-index:2;
+      left: 105px;
+      top: 152px;
+      width: 17px;
+      height: 12px;
+      transform: rotate(-39deg);
+    }
+    .bottomtooth-6{
+      z-index:2;
+      left: 115px;
+      top: 162px;
+      width: 16px;
+      height: 12px;
+      transform: rotate(-52deg);
+    }
+    .bottomtooth-7{
+      z-index:2;
+      left: 129px;
+      top: 167px;
+      width: 14px;
+      height: 11px;
+      transform: rotate(-71deg);
+    }
+    .bottomtooth-8{
+      z-index:2;
+      left: 141px;
+      top: 168px;
+      width: 14px;
+      height: 10px;
+      transform: rotate(-83deg);
+    }
+    .bottomtooth-9{
+      z-index:2;
+      left: 152px;
+      top: 169px;
+      width: 14px;
+      height: 10px;
+      transform: rotate(90deg);
+    }
+    .bottomtooth-10{
+      z-index:2;
+      left: 164px;
+      top: 167px;
+      width: 14px;
+      height: 11px;
+      transform: rotate(76deg);
+    }
+    .bottomtooth-11{
+      z-index:2;
+      left: 175px;
+      top: 161px;
+      width: 14px;
+      height: 12px;
+      transform: rotate(59deg);
+    }
+    .bottomtooth-12{
+      z-index:2;
+      left: 185px;
+      top: 151px;
+      width: 15px;
+      height: 13px;
+      transform: rotate(37deg);
+    }
+    .bottomtooth-13{
+      z-index:2;
+      left: 190px;
+      top: 138px;
+      width: 17px;
+      height: 13px;
+      transform: rotate(25deg);
+    }
+    .bottomtooth-14{
+      z-index:2;
+      left: 196px;
+      top: 117px;
+      width: 20px;
+      height: 21px;
+      transform: rotate(22deg);
+    }
+    .bottomtooth-15{
+      z-index:2;
+      left: 203px;
+      top: 96px;
+      width: 20px;
+      height: 21px;
+      transform: rotate(18deg);
+    }
+    .bottomtooth-16{
+      z-index:2;
+      left: 209px;
+      top: 77px;
+      width: 20px;
+      height: 19px;
+      transform: rotate(18deg);
+    }  
 
     img {
    
@@ -207,7 +333,7 @@
       position: absolute;
       top: 60px;
       z-index: 3;
-      background-color: #fff;
+      // background-color: #fff;
     }
   }
   
