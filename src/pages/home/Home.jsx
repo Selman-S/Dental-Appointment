@@ -1,3 +1,4 @@
+import DataTable from '../../components/dataTable/DataTable'
 import NavBar from '../../components/navbar/NavBar'
 import Profile from '../../components/profile/Profile'
 import SideBar from '../../components/sidebar/SideBar'
@@ -17,6 +18,7 @@ const Home = () => {
 
         </div>
         <TeethChart />
+        <DataTable />
       </div>
         <Treatment/>
     </div>

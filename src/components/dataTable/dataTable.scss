@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+  width: auto;
+  border-radius: 3px;
+  margin:3px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+border:1px solid #5616f5;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5616f5;
+
+}
+.container-table {
+  margin:50px 20px;
+  
+  scrollbar-color:#5616f5  red;
+  
+
+  .headcell{
+
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+
+
+  .table {
+    border:2px solid #5616f5;
+    border-radius:8px;
+    height:200px;
+  }
+  
+
+}

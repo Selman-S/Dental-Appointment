@@ -122,6 +122,7 @@ const TeethChart = () => {
   return (
     <div className="teeth-chart">
       <div className="teeth-chart-top">
+        <h2 className='head'>ÜST</h2>
         <div className="toptooth-1 tooth"></div>
         <div className="toptooth-2 tooth"></div>
         <div className="toptooth-3 tooth"></div>
@@ -165,6 +166,7 @@ const TeethChart = () => {
       </div>
 
       <div className="teeth-chart-bottom">
+      <h2 className='head'>ALT</h2>
         <div className="bottomtooth-1 tooth"></div>
         <div className="bottomtooth-2 tooth"></div>
         <div className="bottomtooth-3 tooth"></div>
