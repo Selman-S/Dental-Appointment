@@ -30,6 +30,9 @@
       height: 20px;
       background-color: white;
       position: absolute;
+      font-size: 9px;
+      text-align: center;
+      color:rgb(61, 61, 61);
     }
     
     .toptooth-1{
@@ -105,7 +108,7 @@
       top: 69px;
       width: 19px;
       height: 16px;
-      transform: rotate(99deg);
+      transform: rotate(-81deg);
     }
     .toptooth-10{
       z-index: 2;
@@ -113,23 +116,23 @@
       top: 76px;
       width: 17px;
       height: 12px;
-      transform: rotate(115deg);
+      transform: rotate(-65deg);
     }
     .toptooth-11{
       z-index: 2;
-      left: 181px;
-      top: 83px;
+      left: 180px;
+      top: 82px;
       width: 18px;
-      height: 13px;
-      transform: rotate(133deg);
+      height: 14px;
+      transform: rotate(-47deg);
     }
     .toptooth-12{
       z-index: 2;
       left: 189px;
-      top: 96px;
+      top: 95px;
       width: 19px;
-      height: 13px;
-      transform: rotate(143deg);
+      height: 14px;
+      transform: rotate(-37deg);
     }
     .toptooth-13{
       z-index: 2;
@@ -137,7 +140,7 @@
       top: 109px;
       width: 19px;
       height: 13px;
-      transform: rotate(153deg);
+      transform: rotate(-27deg);
     }
     .toptooth-14{
       z-index: 2;
@@ -145,7 +148,7 @@
       top: 123px;
       width: 22px;
       height: 21px;
-      transform: rotate(163deg);
+      transform: rotate(-17deg);
     }
     .toptooth-15{
       z-index: 2;
@@ -153,7 +156,7 @@
       top: 145px;
       width: 19px;
       height: 18px;
-      transform: rotate(166deg);
+      transform: rotate(-14deg);
     }
     .toptooth-16{
       z-index: 2;
@@ -161,7 +164,7 @@
       top: 164px;
       width: 19px;
       height: 18px;
-      transform: rotate(170deg);
+      transform: rotate(-10deg);
     }
   }
   .teeth-chart-bottom {
